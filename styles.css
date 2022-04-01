@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    background: url("./img/background.jpeg");
+}
+
+#logo {
+    height: 24px;
+}
+
+h1 {
+    color: white;
+}
+
+.paragrafo-principal {
+    color: white;
+}
+
+
+
