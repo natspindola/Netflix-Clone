@@ -2,18 +2,42 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 #container {
     background: url("./img/background.jpeg");
 }
 
-#logo {
-    height: 24px;
+#cabecalho {
+    padding: 28px 56px;
 }
+
+
+#button-entrar {
+    background: #e50914;
+    color: white;
+    font-size: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border: 0;
+    border-radius: 3px;
+    float: right;
+    cursor: pointer;
+}
+
+
 
 h1 {
     color: white;
+    text-align: center;
+    font-size: 56px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
 }
 
 .paragrafo-principal {
