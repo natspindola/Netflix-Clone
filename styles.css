@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    color: white;
 }
 
 #container {
@@ -16,7 +17,6 @@
 
 #button-entrar {
     background: #e50914;
-    color: white;
     font-size: 16px;
     padding-top: 8px;
     padding-bottom: 8px;
@@ -31,17 +31,22 @@
 
 
 h1 {
-    color: white;
     text-align: center;
-    font-size: 56px;
-    width: 800px;
+    font-size: 64px;
+    width: 700px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 100px;
+    margin-top: 140px;
 }
 
-.paragrafo-principal {
-    color: white;
+.paragrafo-assista {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 14px;
+}
+
+.paragrafo-pronto {
+    
 }
 
 
