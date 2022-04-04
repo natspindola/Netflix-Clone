@@ -95,10 +95,16 @@ h2 {
     cursor: pointer;
 }
 
-.img-pergunta {
+#img-pergunta {
     float: right;
     margin-top: 8px;
     transform: rotate(45deg);
+}
+
+#img-pergunta-girar {
+    float: right;
+    margin-top: 8px;
+    transform: rotate(90deg);
 }
 
 #pergunta {
