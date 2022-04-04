@@ -67,3 +67,14 @@ input {
     margin-top: 25px;
     height: 55px;
 }
+
+.rodape {
+    background-color: black;
+    border-top: 7px solid #303030;
+    padding: 100px 0;
+}
+
+h2 {
+    font-size: 50px;
+    text-align: center;
+}
