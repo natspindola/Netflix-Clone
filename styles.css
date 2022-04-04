@@ -80,7 +80,7 @@ h2 {
     text-align: center;
 }
 
-.btn-pergunta {
+#btn-pergunta {
     width: 815px;
     background-color: #303030;
     height: 70px;
@@ -101,7 +101,7 @@ h2 {
     transform: rotate(45deg);
 }
 
-.pergunta {
+#pergunta {
     width: 815px;
     background-color: #303030;
     margin-right: auto;

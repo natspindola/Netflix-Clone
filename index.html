@@ -31,8 +31,8 @@
 
     <div class="rodape">
         <h2>Perguntas frequentes</h2>
-        <button class="btn-pergunta">O que é a Netflix?<img class="img-pergunta" src="img/fechar.svg"> </button>
-        <div class="pergunta">
+        <button id="btn-pergunta">O que é a Netflix?<img class="img-pergunta" src="img/fechar.svg"> </button>
+        <div id="pergunta">
             <p>A Netflix é um serviço de transmissão online que oferece uma ampla variedade de séries, filmes e
                 documentários premiados em milhares de aparelhos conectados à internet.</p>
                 <br />
@@ -44,7 +44,19 @@
 </body>
 
 <script>
+    let botao = document.getElementById("btn-pergunta")
+    let menu = document.getElementById("pergunta")
 
+    function teste(){
+
+        if(menu.style.display == "none") {
+            menu.style.display = "block"
+        } else {
+            menu.style.display = "none"
+        }
+    }
+
+    botao.addEventListener("click", teste)
 </script>
 
 </html>
